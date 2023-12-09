@@ -1,4 +1,8 @@
 # AzureSentinelSIEMLab
+This lab is inspired by Josh Madakor's Sentinel Lab --> [https://github.com/joshmadakor1/Sentinel-Lab](https://github.com/joshmadakor1/Sentinel-Lab)
+Since his lab is over 2 years old, several things have been deprecated on Azure Cloud, this lab works around those changes to achieve the same result as of 12/2023. 
+
+
 Explore Azure Sentinel, a cloud SIEM, and a vulnerable Azure VM exposed to global cyberattacks. Monitor and map attacks to learn SIEM and honeypot usage, extract attacker data from Windows logs using PowerShell and a third-party API for valuable insights.
 
 # Summary of Lab 
