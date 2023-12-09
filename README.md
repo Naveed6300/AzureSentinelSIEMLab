@@ -23,6 +23,8 @@ Explore Azure Sentinel, a cloud SIEM, and a vulnerable Azure VM exposed to globa
 4. Download and run the PowerShell script that exports a custom security log, which is used to identify failed logins. The script runs perpetually and looks through the event logs, grabbing the IP addresses of failed login attempts and converting them to geographical data using an API key. The resulting data is outputted to a log file in a program data folder that is hidden by default. This log file includes sample data that will be used later to train the log analytics workspace to parse the custom log file.
 
 
+![IP Geolocation API](screenshot/IPGeolocationAPI.PNG)
+
 ![PowerShell Script](screenshot/PowerShellScript.PNG)
     
 5. Create a custom log in an Azure Sentinel log analytics workspace with geo data from the virtual machine honeypot that logs failed login attempts. The custom log will help bring the honeypot's log data into the workspace for analysis. 
