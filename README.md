@@ -20,4 +20,8 @@ Explore Azure Sentinel, a cloud SIEM, and a vulnerable Azure VM exposed to globa
    
 7. Set up the geo map in Azure Sentinel. Check the parsed out fields of a failed login log if it looks okay. The map displays the location by country or latitude and longitude fields, exclude unnecessary records and label the metrics in the map. 
 
+![Heatmap Screenshot](screenshot/FailedRDP.PNG)
+
+
+
 8. The host device, whether it's a computer or a phone, will be a target for cyber attacks regardless of whether it has anything valuable on it or not. Bots are constantly scouring the internet for vulnerable hosts to exploit, so it's essential to take steps to secure your device. Use strong passwords with multi-factor authentication and avoid common usernames, such as 'administrator'. The lab shows how the host device has already received thousands of login attempts from around the world in just a matter of hours, highlighting the importance of taking cybersecurity seriously.
