@@ -1,5 +1,5 @@
 ﻿# Get API key from here: https://ipgeolocation.io/
-$API_KEY      = "d4600b4efdef42b39828f5155041a457"
+$API_KEY      = "REDACTED"
 $LOGFILE_NAME = "failed_rdp.log"
 $LOGFILE_PATH = "C:\ProgramData\$($LOGFILE_NAME)"
 
